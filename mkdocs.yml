@@ -1,0 +1,23 @@
+site_name: Project10X – Linear Algebra
+site_description: Tagalog explanations of Linear Algebra concepts inspired by Strang
+site_author: RM Villa
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Chapter 1: 
+      - "1.1 Vectors": chapter_01/1.1_vectors.md
+      - "1.2 Linear Equations": chapter_01/1.2_linear_equations.md
+      - "1.3 Matrix Form": chapter_01/1.3_matrix_form.md
+  - Chapter 2:
+      - "2.1 Elimination": chapter_02/2.1_elimination.md
+      - "2.2 Matrix Multiplication": chapter_02/2.2_matrix_multiplication.md
+  - Chapter 3:
+      - "3.1 Vector Spaces": chapter_03/3.1_vector_spaces.md
